@@ -1,40 +1,39 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Modmium
+description: hi
 template: splash # Remove or comment out this line to display the site sidebar on this page.
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Modmium is a chromeOS modification built to allow the freedom of an unrestricted device on a managed device.
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/logo.png
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Building
+      link: /docs/building
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+    - text: Support
+      link: http://discord.crosbreaker.com
       icon: external
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Features
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Reports as verified in the Google Admin Console (GAC)" icon="server">
 	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
+	<Card title="Allows modification of all policies" icon="document">
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Convenient git updater" icon="seti:git">
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="ChromeOS version changer" icon="cloud-download">
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Different branches " icon="code-branch">
+		- Nightly: where new features are pushed and available for public testing
+		- Stable: where changes are pushed after a public beta
+	</Card>
+	<Card title="Custom bootsplashes for those who wish to install them" icon="window">
+	- Thanks to Casper1051, Moonstone, and pilgorr for creating the default ones :D
 	</Card>
 </CardGrid>
